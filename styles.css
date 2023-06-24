@@ -1,43 +1,32 @@
 /*  your css code here. If applicable */
-* {
-	padding: 0;
-}
 body {
 	background-color: #cccccc;
-	height: 100vh;
 	justify-content: center;
-	justify-items: center;
 	text-align: center;
 }
+
 .player_one {
-	margin: 10px;
 	background-color: white;
+	padding: 10px;
 	border: 1px solid black;
+	border-radius: 6px;
 	text-align: left;
-	padding: 1rem;
-	padding-left: 0.6rem;
-	border-radius: 0.4rem;
 }
 
-h3 {
-	margin: 0;
+ul {
+	list-style-type: none;
+	padding: 0;
 }
 
 a {
-	display: block;
 	text-decoration: none;
-	color: black;
 }
 
 .player_two {
 	background-color: white;
-	padding: 0.7rem;
 	width: 20rem;
-	margin: auto;
+	padding: 10px;
 	border: 1px solid black;
-	border-radius: 0.4rem;
-}
-
-audio {
-	width: 90%;
+	border-radius: 6px;
+	margin: auto;
 }
